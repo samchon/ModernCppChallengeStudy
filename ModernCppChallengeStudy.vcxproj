@@ -89,6 +89,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -101,6 +102,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -115,6 +117,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -131,6 +134,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -154,6 +158,20 @@
     <ClInclude Include="src\ch1\prime.hpp" />
     <ClInclude Include="src\ch1\roman.hpp" />
     <ClInclude Include="src\ch1\sexy.hpp" />
+    <ClInclude Include="src\ch2\container.hpp" />
+    <ClInclude Include="src\ch2\insert.hpp" />
+    <ClInclude Include="src\ch2\Matrix.hpp" />
+    <ClInclude Include="src\ch2\MatrixIterator.hpp" />
+    <ClInclude Include="src\ch3\date.hpp" />
+    <ClInclude Include="src\ch3\join.hpp" />
+    <ClInclude Include="src\ch3\license.hpp" />
+    <ClInclude Include="src\ch3\palindromic.hpp" />
+    <ClInclude Include="src\ch3\split.hpp" />
+    <ClInclude Include="src\ch3\stringify.hpp" />
+    <ClInclude Include="src\ch3\capitalize.hpp" />
+    <ClInclude Include="src\ch3\index.hpp" />
+    <ClInclude Include="src\ch3\binarify.hpp" />
+    <ClInclude Include="src\ch3\uri.hpp" />
     <ClInclude Include="src\utils\console.hpp" />
   </ItemGroup>
   <ItemGroup>

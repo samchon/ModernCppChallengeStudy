@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <utility>
+#include <string>
 
 class console
 {
@@ -14,6 +15,17 @@ public:
         std::cin >> val;
 
         return val;
+    };
+
+    template <>
+    static std::string get_input(const char *name)
+    {
+        std::string ret;
+
+        std::cout << "Insert " << name << ": ";
+        std::getline(std::cin, ret);
+        
+        return ret;
     };
 
 	static void print_title(int chapter, int quiz, const char *title)
